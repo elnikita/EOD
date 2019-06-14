@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>el Oriental digital</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+	<!--firebase-->
+
+	<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-functions.js"></script>
+
+<!-- Comment out (or don't include) services that you don't want to use -->
+<!-- <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-storage.js"></script> -->
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD-9_WgrOHGhPJzSqM4fdi5RcI5pYFDZX0",
+    authDomain: "eod-8fe9e.firebaseapp.com",
+    databaseURL: "https://eod-8fe9e.firebaseio.com",
+    projectId: "eod-8fe9e",
+    storageBucket: "eod-8fe9e.appspot.com",
+    messagingSenderId: "285498751934"
+  };
+  firebase.initializeApp(config);
+
+	  var database = firebase.database();
+
+
+
+</script>
+
+<!--firebase-->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50791624-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-50791624-3');
+</script>
+
+<!--firebase-->
+</head>
+
+
+<body>
+
+<div class="container-narrow">
+
+<div class="container-fluid bg-1 text-center">
+  <div class="row">
+        <div class="col-sm-4 azul">
+            <p></p>
+        </div>
+        <div class="col-sm-4 blanco">
+          <p></p>
+        </div>
+        <div class="col-sm-4 azul">
+          <p></p>
+        </div>
+  </div>
+
+  <div id="header">
+        <div class="col-sm-5">
+            <img src="Images/logo.jpg" class="img-responsive col-xs-12"  alt="logo" />
+        </div>
+
+        <div class="col-sm-5" id="titulo">
+             <h1>el Oriental digital</h1>
+        </div>
+
+        <div class="col-sm-2">
+          <a href="https://www.facebook.com/El-Oriental-Digital-1580096885445109/"><i class="fa fa-facebook-square fa-3x social-fb" id="social" style="font-size:80px; margin:5%;"></i></a>
+        </div>
+  </div>
+
+
+</div>
+
+<div id="container2" class="container-fluid bg-2">
+
+
+
+    <div class="col-sm-3 text-center">
+
+        <div id="info_container" class="col-sm-12 azul_claro">
+          <img id="marker_img" class="img-circle" src=""/>
+          <h2 id="marker_nombre"> </h2>
+          <br>
+            <div id="gmaps_container ">
+
+
+
+              <div id="arrow_contatiner text-center">
+                <div id="productos" class="inner_shadow col-sm-12">
+                  <ul id="ul_productos" class="list-group">
+
+
+                  </ul>
+
+
+                </div>
+              </div>
+              <br/>
+              <br/>
+              <br/>
+
+              <a id="a_gmaps" target="_blank" href="">
+              <img id="igmaps" src="Images/gmaps.png"/>
+              </a>
+
+
+            </div>
+        </div>
+
+      <br>
+    </div>
+
+    <div id='ver' class="col-sm-7">
+
+      <div id='map'></div>
+      <script src="js/map.js"></script>
+    </div>
+
+    <div id='ver2' class="col-sm-2">
+
+    <div class="search-container col-sm-12">
+      <form>
+        <input type="text" id="myInput" onkeyup="myFunction()"  placeholder="Buscar..." name="search">
+      <!--  <button type="submit"><i class="fa fa-search"></i></button> -->
+      </form>
+
+      <ul id="myUL"  class="list-group" style="overflow-y: scroll;">
+
+</ul>
+    </div>
+
+
+        </div>
+</div>
+
+<!--footer-->
+<footer class="footer1">
+
+          <div class="container">
+
+        <div class="row"><!-- row -->
+
+
+	         <script>  </script>
+
+                <div class="col-lg-6 col-md-6 text-center"><!-- widgets column left -->
+
+                <ul class="list-unstyled clear-margins"><!-- widgets -->
+
+                          <li class="widget-container widget_nav_menu"><!-- widgets list -->
+
+                                <h1 class="title-widget">Otros enlaces</h1>
+
+                                <ul>
+
+
+                <li><a href="#"><i class="fa fa-angle-double-right"></i> Directorio de Abogados</a></li>
+        <li><a href="#"><i class="fa fa-angle-double-right"></i> Directorio de Casas de Empeno</a></li>
+
+                                </ul>
+
+              </li>
+
+                        </ul>
+
+
+      </div><!-- widgets column left end -->
+
+
+                <div class="col-lg-6 col-md-6 text-center"><!-- widgets column center -->
+
+
+
+                        <ul class="list-unstyled clear-margins"><!-- widgets -->
+
+                          <li class="widget-container widget_recent_news"><!-- widgets list -->
+
+                                <h1 class="title-widget">Contacto</h1>
+
+                                <div class="footerp">
+
+                                <h2 class="title-median">
+                                Francisco Leiva</h2>
+
+                                </div>
+
+                                <div class="social-icons">
+
+                                  <ul class="nomargin">
+
+
+              <a href="https://www.facebook.com/falz94/"><i class="fa fa-facebook-square fa-3x social-tw" id="social"></i></a>
+              <a href="https://github.com/elnikita/"><i class="fa fa-github-square fa-3x social-gp" id="social"></i></a>
+              <a href="mailto:francisco.leiva.zelaya.2017@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+
+                                    </ul>
+                                </div>
+                        </li>
+                          </ul>
+                       </div>
+                </div>
+
+
+          </div>
+</footer>
+
+</div>
+</div>
+</body>
+</html>

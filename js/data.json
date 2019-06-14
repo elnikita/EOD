@@ -1,0 +1,441 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {   "id":"1",
+            "type": "Feature",
+            "properties": {
+        "imagen": "50x50.png",
+                "message": "Reparacion de Celulares",
+                "iconSize": [50, 50],
+                "products":[
+                    {"nombre":"",
+                    "precio":""}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.2600625, 12.1456384
+                ]
+            }
+        },
+        {   "id":"2",
+            "type": "Feature",
+            "properties": {
+        "imagen": "zapatos.png",
+                "message": "Reparacion de Zapatos",
+                "iconSize": [60, 60],
+                "products":[
+                    {"nombre":"",
+                    "precio":""}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.2601895,12.1453156
+                ]
+            }
+        },
+        {   "id":"3",
+            "type": "Feature",
+            "properties": {
+                "imagen": "videojuegos.png",
+                "message": "Video Juegos 1",
+                "iconSize": [60,60],
+                "products":[
+                    {"nombre":"Flasheo de PS3",
+                    "precio":"$40 - $70"},
+                    {"nombre":"Juegos digitales para PS3",
+                    "precio":"100"},
+                    {"nombre":"Juegos Xbox 360",
+                    "precio":"30c - 50c"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2596924,12.1459600
+                ]
+            }
+        },
+        {   "id":"4",
+            "type": "Feature",
+            "properties": {
+        "imagen": "matess.png",
+               "message": "Colchones para Catre",
+                "iconSize": [60,60],
+                "products":[
+                    {"nombre":"Catre y colchon",
+                    "precio":"1,000"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2602950,12.1452140
+                ]
+            }
+        },
+        {   "id":"5",
+            "type": "Feature",
+            "properties": {
+        "imagen": "muebles_ropa.png",
+               "message": "Muebles para ropa",
+                "iconSize": [60,60],
+                "products":[
+                    {"nombre":"",
+                    "precio":""}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2596623, 12.1449215
+                ]
+            }
+        }
+,
+        {   "id":"6",
+            "type": "Feature",
+            "properties": {
+        "imagen": "catre.png",
+               "message": "Catre de Aluminio",
+                "iconSize": [50,50],
+                "products":[
+                    {"nombre":"Catre pequeno",
+                    "precio":"800"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2599624, 12.1447865
+                ]
+            }
+        }
+,
+        {   "id":"7",
+            "type": "Feature",
+            "properties": {
+        "imagen": "crttv_icon.png",
+               "message": "Televisores de tubo",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"",
+                    "precio":""}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+         -86.2600755,12.1452238
+                ]
+            }
+        }
+,
+        {   "id":"8",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_abanico.png",
+               "message": "Abanicos",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"",
+                    "precio":""}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2592356,12.1450254
+                ]
+            }
+        }
+,
+        {   "id":"9",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_audio.png",
+               "message": "Sistemas de Sonido",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"",
+                    "precio":""}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2593292, 12.1448264
+                ]
+            }
+        }
+,
+        {   "id":"10",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_lavadora.png",
+               "message": "Lavadoras",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"",
+                    "precio":""}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2591645, 12.1451460
+                ]
+            }
+        }
+,
+
+        {   "id":"11",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_cama.png",
+               "message": "Camas",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Unipersonal",
+                    "precio":"2500-3000"},
+					{"nombre":"Matrimonial",
+                    "precio":"2500-3000"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2593667, 12.1447215
+                ]
+            }
+        }
+,
+        {   "id":"12",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_cuna.png",
+               "message": "Cunas",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"",
+                    "precio":""}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2597054, 12.1448043 
+                ]
+            }
+        },
+        {   "id":"13",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_computer_repair-01.png",
+               "message": "Reparacion de Computadoras",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Whatsapp",
+                    "precio":"8377-7016"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.263497, 12.144933
+                ]
+            }
+        },
+        {   "id":"14",
+            "type": "Feature",
+            "properties": {
+        "imagen": "almibar_icon-012.png",
+               "message": "Almibar",
+                "iconSize": [150,150],
+                "products":[
+                    {"nombre":"Racion de Almibar",
+                    "precio":"30"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2595114,12.1464050
+                ]
+            }
+        },
+        {   "id":"15",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_piscina.png",
+               "message": "Piscinas de Plastico",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Racion de Almibar",
+                    "precio":"30"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2592054 , 12.1450693
+                ]
+            }
+        },
+        {   "id":"16",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_sofa.png",
+               "message": "Sofas",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Racion de Almibar",
+                    "precio":"30"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2593801, 12.1445406
+                ]
+            }
+        },
+        {   "id":"17",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_plancha.png",
+               "message": "Planchas",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Racion de Almibar",
+                    "precio":"30"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2592757, 12.1451376
+                ]
+            }
+        },
+        {   "id":"18",
+            "type": "Feature",
+            "properties": {
+        "imagen": "shoes.png",
+               "message": "Zona de Zapatos nuevos",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Zapatos nuevos no originales",
+                    "precio":"1200"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2592344, 12.1468523
+                ]
+            }
+        },
+        {   "id":"19",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_panal.png",
+               "message": "Panal #1",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Talla 5 a 9",
+                    "precio":"400-600"},
+					{"nombre":"Talla 10 a 13",
+                    "precio":"600-800"},
+					{"nombre":"Estilos buenos",
+                    "precio":"1200-1500"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2608289, 12.1470302
+                ]
+            }
+        },
+        {   "id":"21",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_panal.png",
+               "message": "El Panal #2",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Talla 5 a 9",
+                    "precio":"400-600"},
+					{"nombre":"Talla 10 a 13",
+                    "precio":"600-800"},
+					{"nombre":"Estilos buenos",
+                    "precio":"1200-1500"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2633523, 12.1455964
+                ]
+            }
+        },
+        {   "id":"22",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_silla.png",
+               "message": "Sillas plasticas",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Talla 5 a 9",
+                    "precio":"400-600"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2589894 ,12.1454887
+                ]
+            }
+        },
+        {   "id":"23",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_termo.png",
+               "message": "Termos",
+                "iconSize": [70, 70],
+                "products":[
+                    {"nombre":"Talla 5 a 9",
+                    "precio":"400-600"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2589116, 12.1456303 
+                ]
+            }
+        },
+        {   "id":"24",
+            "type": "Feature",
+            "properties": {
+        "imagen": "icon_accesorios.png",
+               "message": "Accesorios para celulares 1",
+                "iconSize": [70,70],
+                "products":[
+                    {"nombre":"Diferentes accesorios como protectores, audifonos y cargadores",
+                    "precio":"400-600"}
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                 "coordinates": [
+        -86.2595663, 12.1458803
+                ]
+            }
+        }
+    ]
+}
